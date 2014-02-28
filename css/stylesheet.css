@@ -1,0 +1,93 @@
+p {
+	font-family: 'Great Vibes', cursive;
+}
+#header{ 
+
+        background-color:red;
+        text-align: center;
+        border-radius: 10px;
+}
+
+#navbar{
+        height:600px;
+        width:800px;
+        background-color:green;
+        text-align: center;
+        border-radius: 10px;
+}
+
+#navbar ul li a{
+        text-decoration: none;
+}
+
+#navbar ul li{
+        display:inline;
+}
+
+#footer{
+        height:500px;
+        width:500px;
+        background-color:red;
+        text-align: center;
+        border-radius: 10px;
+}
+
+#aside{
+        height:50;
+        width:60;
+        background-color:white;
+        text-align: center;
+        border-radius: 10px;
+
+}
+.article{
+        height:800px;
+        width:800px;
+        text-align: center;
+        background-color:blue
+        ;
+        border-radius: 10px;
+
+}
+.section{
+        height:50%;
+        width:60%;
+        text-align: center;
+        background-color:purple;
+        border-radius: 10px;    
+}
+
+#content{
+        height:50px;
+        width:60px;
+        text-align: center;
+}
+
+.float_left {
+        float: left;
+}
+
+.float_right {
+        float: right;
+}
+
+.clear_both{
+        clear:both;
+}
+
+div{
+        margin-bottom:10px;
+}
+
+/*
+un comment this to center stuff on the page
+*/
+html{
+        display: table;
+        margin:auto;
+}
+
+body{
+        display: table-cell;
+        vertical-align: middle;
+}
